@@ -10,10 +10,7 @@ let totalHarePopulation;
 
 totalHarePopulation = (startingPopulation * birthRate) * numberOfWeeks;
 
-
-
-
-console.log("There will be: " + totalHarePopulation + " Cherokee Hares after " + numberOfWeeks + " weeks");
+console.log("There will be: " + totalHarePopulation + " Cherokee Hares after " + numberOfWeeks + " weeks expanding at a rate of " + Math.round(birthRate * 100) + "%");
 
 
   })();
