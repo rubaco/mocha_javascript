@@ -1,6 +1,5 @@
-(function() {
 
-
+function giveChange(total){
 
   let numberArray = [1, 5, 10, 20]
   console.log(numberArray);
@@ -9,7 +8,7 @@
   let tenDollarBills;
   let fiveDollarBills;
   let oneDollarBills;
-  let total = 115;
+  
 
   //20 bill
   if (total => 20) {
@@ -45,4 +44,13 @@
 
   let finalArray = [twentyDollarBills, tenDollarBills, fiveDollarBills, oneDollarBills];
 
-})();
+  return finalArray;
+
+}
+
+//let value = 115;
+//console.log(giveChange(value));
+
+module.exports = giveChange;
+
+

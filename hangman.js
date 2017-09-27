@@ -1,25 +1,40 @@
-(function() {
 
-  let word = "ironnnnnnyard"
+
+
+
+ // let word = "ironnnnnnyard"
+ 
+
+function sendWord(word){
   let counter = 0;
   let guessLetter = "x";
-
   wordArray = word.split("")
-  console.log(wordArray);
+  // console.log(wordArray);
 
   for (let i = 0; i < word.length; i++) {
-    console.log(wordArray[i])
+    //console.log(wordArray[i])
     if (wordArray[i] == guessLetter) {
-      console.log("found!!")
+     // console.log("found!!")
       counter = counter + 1;
     }
 
   }
 
   if (counter > 0) {
-    console.log("found the letter \"" + guessLetter + "\" " + counter + " times")
+    //console.log("function found the letter \"" + guessLetter + "\" " + counter + " times")
+    return (counter)
   } else {
-    console.log("letter not found")
+   // console.log("function did not find letter")
+    return (counter)
   }
 
-})();
+}
+
+//console.log(sendWord(word));
+
+
+//console.log(sendWord("excellent"));
+
+module.exports = sendWord;
+
+

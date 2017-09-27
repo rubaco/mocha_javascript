@@ -1,0 +1,28 @@
+{
+  "name": "javascript_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "change_machine.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubaco/javascript_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubaco/javascript_practice/issues"
+  },
+  "homepage": "https://github.com/rubaco/javascript_practice#readme"
+}
